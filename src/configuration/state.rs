@@ -5,8 +5,7 @@ pub struct AppState {
     // access_modifier service_variable: Data<ServiceStruct>
 }
 
-pub fn app_state(
-    // pg_pool: PgPool
+pub fn app_state(// pg_pool: PgPool
 ) -> AppState {
     AppState {}
 }
